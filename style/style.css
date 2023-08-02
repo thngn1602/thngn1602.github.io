@@ -1,0 +1,183 @@
+* {
+    font-size: 25px;
+}
+.info-text {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: WHITE;
+}
+
+.info-text p,h2 {
+    width:auto;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner {
+    z-index: -99;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+nav {
+    padding-bottom: 20px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.avatar {
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.graph {
+    text-align: justify;
+}
+.menubar {
+    align-items: center;
+}
+.menu {
+    list-style-type: none;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+
+}
+.menu a {
+    padding: 0;
+    font-family: monospace;
+    padding: 10px;
+    color: white; 
+}
+.menu a:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.card img {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.card-title {
+    text-align: center;
+}
+.card {
+    height: 100%;
+    margin-top: 20px;
+    color: black;
+}
+.poc {
+    position: absolute;
+}
+.poc .card-footer .card-text {
+
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    bottom: 5px;    
+}
+.service {
+    margin-bottom: 30px;
+    padding: 20px 0px;
+    color: white;
+    background-color: rgb(103, 4, 72);
+}
+.card-title {
+    font-size: 28px;
+    font-weight: 1000;
+    margin: 0 ;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed black;
+}
+.card-text {
+    font-size: 22px;
+
+}
+.portfolio {
+    margin-bottom: 30px;
+}
+.map {
+    padding-top: 20px;
+}
+.cntbtn button{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.col-md-3 ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.footer {
+    padding-top: 20px;
+    border-top: 5px solid black;
+}
+.foot {
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+.col-md-3 ul li a {
+    color: white;
+}
+.col-md-3 ul li a:hover {
+    color: rgb(93, 64, 78);
+}
+.col-md-3 h3 {
+    font-size: 33px;
+    font-weight: bold;
+    color: white;
+
+}
+.imgcontainer {
+    max-width: 100%;
+}
+.imgfoot {
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    border: 2px solid black;
+}
+.footer {
+    background-color: rgb(103, 4, 72);
+    
+}
+.col-md-4 {
+    margin-bottom: 30px;
+}
+.lastf {
+    background-color: aliceblue;
+    max-width: 100%;
+    width: 100%;
+    margin: 0px;
+    display: block;
+    background-color: rgb(70, 2, 49);
+    padding: 10px 0px;
+}
+
+.ty {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+.contact {
+    
+    padding: 20px 0px;
+}
